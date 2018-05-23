@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import br.com.projescola.db.CidadeDB;
-import br.com.projescola.nome.Cidade;
+import br.com.projescola.model.Cidade;
 
 
 @WebServlet("/ControllerCidade")

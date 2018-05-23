@@ -1,4 +1,4 @@
-package br.com.projescola.nome;
+package br.com.projescola.model;
 
 public class Aluno extends Pessoa {
 	

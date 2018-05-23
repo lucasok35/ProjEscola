@@ -9,6 +9,14 @@
 <link href="bootstrap/css/bootstrap.css" rel="styleSheet">
 </head>
 <body>
+<%
+	
+	if(request.getAttribute("msg") != null){%>
+	
+	<p> Ola turma tem mensagem: <%= request.getAttribute("msg") %></p>
+	
+	<% }%>	
+
 
 <form action="ControllerLogin" method="post">
 <div class="col-sm-3">

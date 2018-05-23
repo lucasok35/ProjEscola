@@ -1,4 +1,4 @@
-package br.com.projescola.nome;
+package br.com.projescola.model;
 
 public class Cidade {
 	
@@ -6,6 +6,28 @@ public class Cidade {
 	private String nome;
 	private int qtdhabitantes;
 	
+	
+	
+	public Cidade() {
+		
+	}
+	
+	
+	public Cidade(int id, String nome, int qtdhabitantes) {
+		this.id = id;
+		this.nome = nome;
+		this.qtdhabitantes = qtdhabitantes;
+	}
+
+	
+	
+	public Cidade(int id) {
+		this.id = id;
+	}
+
+	public Cidade(String nome) {
+		this.nome=nome;
+	}
 	public int getId() {
 		return id;
 	}
